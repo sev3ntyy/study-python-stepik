@@ -1,5 +1,2 @@
-class User:
+class Book:
     pass
-
-user1 = User()
-user2 = User()
