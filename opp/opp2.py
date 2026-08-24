@@ -61,6 +61,15 @@ class Employee:
         return f"{self.name} работает в компании {Employee.company} на должности {self.position}."
 
 
+class Config:
+    theme = "light"
+    def __init__(self,app_name):
+        self.app_name = app_name
+    def get_theme(self):
+        return self.theme
+
+
+
 
 
 
