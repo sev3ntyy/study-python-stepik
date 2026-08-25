@@ -12,7 +12,7 @@ class CourierRobot:
     def charge(self, amount):
         if self.current_energy + amount <= self.max_energy:
             self.current_energy += amount
-            print(f"{self.name}: получено {amount} ед. энергии")
+            print(f'{self.name}: получено {amount} ед. энергии')
         else:
             print(f"{self.name}: аккумулятор переполнен")
     
