@@ -60,7 +60,7 @@ ship2.show_info()
 
  
 
-print(f'Всего кораблей: {SpaceShip.total_ships}')
+print(f"Всего кораблей: {SpaceShip.total_ships}")
 
 
 
