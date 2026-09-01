@@ -18,3 +18,16 @@ class Secret:
     def get_message(self) -> str:
         return self._message
 
+class User:
+    def __init__(self):
+        self._age = 0 
+    def get_age(self):
+        return self._age
+    def set_age(self, new_age):
+        if not isinstance(new_age, int) or new_age <= 0:
+            return self._age
+        else:
+            self._age = new_age
+
+
+
